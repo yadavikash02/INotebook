@@ -28,7 +28,7 @@ const Signup = (props) => {
             // const succ=json.success;
             // getAuthToken(data,succ);
             navigate('/home');     
-            props.showAlert(":login Successfully","success");
+            props.showAlert(":SignUp Successfully","success");
             // alert("Successfully login");
         }
         else{
