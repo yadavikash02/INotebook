@@ -31,9 +31,10 @@ function App() {
             <Routes>
             <Route path="/INotebook" element={<Home showAlert={showAlert}/>}/>
               <Route path="/" element={<Home showAlert={showAlert}/>}/>
+              <Route path="/home" element={<Home showAlert={showAlert}/>}/>
               <Route path="/about" element={<About />}/>
               <Route path="/login" element={<Login showAlert={showAlert}/>}/>
-              {/* <Route path="/" element={<DynamicTextImage/>}/> */}
+              <Route path="/Inotebook" element={<DynamicTextImage/>}/>
               <Route path="/signup" element={<Signup showAlert={showAlert}/>}/>
             </Routes>
           </div>
